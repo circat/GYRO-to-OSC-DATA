@@ -15,7 +15,13 @@ Use the NodeMCU ESP32 prototyping Board to read a LSM6 6-Axis Gyroscope and send
 
 ![Prefs](https://github.com/circat/GYRO-to-OSC-DATA/blob/master/img/Arduino_nodeMCU.PNG)
 
-04 - in Arduino set Wifi settings to your network settings and host Computer IP and upload to NodeMCU :
+04 - Download ARDOSC Arduino Library and extract to your Arduino Librarys Folder.
+https://www.arduinolibraries.info/libraries/ard-osc
+
+About OSC : 
+http://opensoundcontrol.org/spec-1_0
+
+05 - in Arduino set Wifi settings to your network settings and host Computer IP and upload to NodeMCU :
 
 // WiFi network name and password:
 const char * networkName = "your Network";
@@ -23,6 +29,9 @@ const char * networkPswd = "Your Network Pass";
 
 const char * udpAddress = "xxx.xxx.x.xxx";
 const int udpPort = 6666;
+
+05 - connect gyroscope to 3.3V + GND and SCL to NodeMCU pin D22 and SDA to pin D21
+![Prefs](https://github.com/circat/GYRO-to-OSC-DATA/blob/master/img/pinout.PNG)
 
 
 
