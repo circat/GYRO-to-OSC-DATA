@@ -33,6 +33,12 @@ const int udpPort = 6666;
 05 - connect gyroscope to 3.3V + GND and SCL to NodeMCU pin D22 and SDA to pin D21
 ![Prefs](https://github.com/circat/GYRO-to-OSC-DATA/blob/master/img/pinout.PNG)
 
+06 - Download Pololu LSM6 Library for 6-Axis gyroscope and Accelerator in Library Manager or on :
+      https://github.com/pololu/lsm6-arduino
+
+06 - UPLOAD to Arduino ,if upload fails press BOOT on Node MCU to enable upload. Hold Boot till upload starts.
+
+
 
 
 
