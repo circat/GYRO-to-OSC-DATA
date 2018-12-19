@@ -9,8 +9,8 @@
 LSM6 imu;
 
 // WiFi network name and password:
-const char * networkName = "o2-WLAN44";
-const char * networkPswd = "4K7TDF6494769V8T";
+const char * networkName = "YOUR NETWORK";
+const char * networkPswd = "YOUR PASS";
 
 const char * udpAddress = "192.168.1.131";
 const int udpPort = 6666;
