@@ -4,13 +4,13 @@ Use the NodeMCU ESP32 prototyping Board to read a LSM6 6-Axis Gyroscope and send
 
 ## Getting Started
 
-01 -  Install Node MCU Drivers and Arduino library as described here ,but go to Arduino IDE preferences
-      andcopy this adress " https://dl.espressif.com/dl/package_esp32_index.json " to additional boards.
 
-      http://anleitung.joy-it.net/wp-content/uploads/2018/07/SBC-NodeMCU-ESP32-Anleitung_V1.3.pdf
+01 -  Go to Arduino IDE preferences and copy this " https://dl.espressif.com/dl/package_esp32_index.json " to additional boards URLs.
+    
+02 -  Install Node MCU Drivers : https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+
+
       
-02 -  
-
 
 
 ### Prerequisites
