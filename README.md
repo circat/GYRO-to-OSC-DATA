@@ -11,7 +11,17 @@ Use the NodeMCU ESP32 prototyping Board to read a LSM6 6-Axis Gyroscope and send
 
 02 -  Install Node MCU Drivers : https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
 
+03 - select NODE32s from Boards :
+![Prefs](https://github.com/circat/GYRO-to-OSC-DATA/blob/master/img/Arduino_nodeMCU.PNG)
 
+04 - in Arduino set Wifi settings to your network settings and host Computer IP:
+
+// WiFi network name and password:
+const char * networkName = "your Network";
+const char * networkPswd = "Your Network Pass";
+
+const char * udpAddress = "xxx.xxx.x.xxx";
+const int udpPort = 6666;
       
 
 
