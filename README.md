@@ -1,6 +1,6 @@
-# NODE-MCU-OSCtoGYRO
+# Gyroscope to OSC Data
 
-One Paragraph of project description goes here
+Use the Node-MCU ESP32 Device to read a LSM6 6-Axis Gyroscope and send data wireless via OSC to another device , in this case Touchdesigner on a Windows PC.
 
 ## Getting Started
 
