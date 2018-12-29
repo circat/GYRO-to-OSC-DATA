@@ -12,7 +12,7 @@ LSM6 imu;
 const char * networkName = "YOUR NETWORK";
 const char * networkPswd = "YOUR PASS";
 
-const char * udpAddress = "192.168.1.131";
+const char * udpAddress = "xxx.xxx.x.xxx"; // Touchdesigner PC IP
 const int udpPort = 6666;
 
 //Are we currently connected?
